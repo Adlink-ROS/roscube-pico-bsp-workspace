@@ -1,0 +1,5 @@
+layers/*
+*.code-workspace
+build/*
+!build/.gitkeep
+!layers/.gitkeep
