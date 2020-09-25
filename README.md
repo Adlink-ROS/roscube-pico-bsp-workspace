@@ -29,15 +29,15 @@ $> source layers/poky-dunfell/oe-init-build-env build
 
 Add meta layers
 ```
-$:build> bitbake-layers ../layers/meta-openembedded/meta-oe
-$:build> bitbake-layers ../layers/meta-openembedded/meta-python
-$:build> bitbake-layers ../layers/meta-openembedded/meta-networking
-$:build> bitbake-layers ../layers/meta-openembedded/meta-multiplemedia
-$:build> bitbake-layers ../layers/meta-openembedded/meta-virtualization
-$:build> bitbake-layers ../layers/meta-openembedded/meta-gnome
-$:build> bitbake-layers ../layers/meta-openembedded/meta-xfce
-$:build> bitbake-layers ../layers/meta-tegra
-$:build> bitbake-layers ../layers/meta-roscube
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-oe
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-python
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-networking
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-multiplemedia
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-virtualization
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-gnome
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-xfce
+$:build> bitbake-layers add-layer ../layers/meta-tegra
+$:build> bitbake-layers add-layer ../layers/meta-roscube
 ```
 
 ## Build images
