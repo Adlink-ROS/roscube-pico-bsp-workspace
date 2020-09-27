@@ -39,9 +39,8 @@ $:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-oe
 $:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-python
 $:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-networking
 $:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-multimedia
-$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-virtualization
-$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-gnome
-$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-xfce
+$:build> bitbake-layers add-layer ../layers/meta-openembedded/meta-filesystems
+$:build> bitbake-layers add-layer ../layers/meta-virtualization
 $:build> bitbake-layers add-layer ../layers/meta-tegra
 $:build> bitbake-layers add-layer ../layers/meta-roscube
 ```
