@@ -11,6 +11,12 @@ This workspace supports the following models.
 
 ## Preparation
 
+Install required tools
+
+```
+sudo apt install chrpath gawk
+```
+
 Download base meta layers.
 
 ```
